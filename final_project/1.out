@@ -1,0 +1,1520 @@
+game_info:
+{'player_num': 2, 'rule': {'initial_stack': 1000, 'max_round': 20, 'small_blind_amount': 5, 'ante': 0, 'blind_structure': {}}, 'seats': [{'name': 'p1', 'uuid': 'rogfzqfgopacmrwndxlaiz', 'stack': 1000, 'state': 'participating'}, {'name': 'p2', 'uuid': 'zdymtlagughjdteamxsbuz', 'stack': 1000, 'state': 'participating'}]}
+-- Game start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- rule --
+  - 2 players game
+  - 20 round
+  - start stack = 1000
+  -        ante = 0
+  - small blind = 5
+======================================================================
+Enter some key to continue ...-- Round 1 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['CK', 'DK']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 990
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 995
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 1
+Street "preflop" started. (community card = [])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 1000]
+-- hole card --
+  - ['CK', 'DK']
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 990 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 995 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 990 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 995 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 1 (stack = {'p1': 1005, 'p2': 995})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1005
+-- round state --
+  - dealer btn : p1
+  - street : showdown
+  - community card : ['D3', 'HT', 'CJ', 'D5', 'H9']
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1005 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 995 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 2 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['DK', 'DQ']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1000
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 985
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 2
+Street "preflop" started. (community card = [])
+-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p1 (rogfzqfgopacmrwndxlaiz) declared call: 10
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 995 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 985 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter some key to continue ..."p1" declared "call:10"
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 995]
+-- hole card --
+  - ['DK', 'DQ']
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 995 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 985 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 995 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 985 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 2 (stack = {'p1': 1015, 'p2': 985})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1015
+-- round state --
+  - dealer btn : p2
+  - street : showdown
+  - community card : ['H4', 'SA', 'HA', 'D2', 'C2']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1015 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 985 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 3 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['CA', 'H7']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1005
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 980
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 3
+Street "preflop" started. (community card = [])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 985]
+-- hole card --
+  - ['CA', 'H7']
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1005 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 980 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1005 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 980 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 3 (stack = {'p1': 1020, 'p2': 980})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1020
+-- round state --
+  - dealer btn : p1
+  - street : showdown
+  - community card : ['DJ', 'SA', 'H8', 'C5', 'DK']
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1020 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 980 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 4 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['HA', 'S9']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1015
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 970
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 4
+Street "preflop" started. (community card = [])
+-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p1 (rogfzqfgopacmrwndxlaiz) declared call: 10
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1010 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 970 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter some key to continue ..."p1" declared "call:10"
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 980]
+-- hole card --
+  - ['HA', 'S9']
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1010 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 970 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1010 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 970 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 4 (stack = {'p1': 1030, 'p2': 970})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1030
+-- round state --
+  - dealer btn : p2
+  - street : showdown
+  - community card : ['D3', 'C2', 'C7', 'H3', 'DT']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1030 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 970 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 5 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['S4', 'HT']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1020
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 965
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 5
+Street "preflop" started. (community card = [])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 970]
+-- hole card --
+  - ['S4', 'HT']
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1020 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 965 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1020 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 965 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 5 (stack = {'p1': 1035, 'p2': 965})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1035
+-- round state --
+  - dealer btn : p1
+  - street : showdown
+  - community card : ['C4', 'H6', 'H7', 'CT', 'C2']
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1035 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 965 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 6 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['C8', 'DT']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1030
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 955
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 6
+Street "preflop" started. (community card = [])
+-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p1 (rogfzqfgopacmrwndxlaiz) declared call: 10
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1025 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 955 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter some key to continue ..."p1" declared "call:10"
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 965]
+-- hole card --
+  - ['C8', 'DT']
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1025 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 955 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1025 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 955 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 6 (stack = {'p1': 1045, 'p2': 955})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1045
+-- round state --
+  - dealer btn : p2
+  - street : showdown
+  - community card : ['D9', 'H5', 'CJ', 'SA', 'H2']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1045 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 955 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 7 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['H5', 'S6']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1035
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 950
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 7
+Street "preflop" started. (community card = [])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 955]
+-- hole card --
+  - ['H5', 'S6']
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1035 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 950 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared call: 10
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1035 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 945 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "call:10"
+-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p1 (rogfzqfgopacmrwndxlaiz) declared call: 10
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1035 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 945 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - flop
+======================================================================
+Enter some key to continue ..."p1" declared "call:10"
+Street "flop" started. (community card = ['CA', 'S9', 'H9'])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 945]
+-- hole card --
+  - ['H5', 'S6']
+-- round state --
+  - dealer btn : p1
+  - street : flop
+  - community card : ['CA', 'S9', 'H9']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1035 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 945 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p1
+  - street : flop
+  - community card : ['CA', 'S9', 'H9']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1035 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 945 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - flop
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 7 (stack = {'p1': 1055, 'p2': 945})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055
+-- round state --
+  - dealer btn : p1
+  - street : showdown
+  - community card : ['CA', 'S9', 'H9', 'SK', 'D2']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 945 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - flop
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 8 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['DJ', 'C4']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1050
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 935
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 8
+Street "preflop" started. (community card = [])
+-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p1 (rogfzqfgopacmrwndxlaiz) declared call: 10
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1045 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 935 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter some key to continue ..."p1" declared "call:10"
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 945]
+-- hole card --
+  - ['DJ', 'C4']
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1045 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 935 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1045 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 935 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 8 (stack = {'p1': 1065, 'p2': 935})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1065
+-- round state --
+  - dealer btn : p2
+  - street : showdown
+  - community card : ['D5', 'CT', 'DA', 'D2', 'CK']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1065 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 935 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 9 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['H3', 'S9']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 930
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 9
+Street "preflop" started. (community card = [])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 935]
+-- hole card --
+  - ['H3', 'S9']
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 930 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared call: 10
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 925 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "call:10"
+-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p1 (rogfzqfgopacmrwndxlaiz) declared call: 10
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 925 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - flop
+======================================================================
+Enter some key to continue ..."p1" declared "call:10"
+Street "flop" started. (community card = ['DT', 'CA', 'H4'])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 925]
+-- hole card --
+  - ['H3', 'S9']
+-- round state --
+  - dealer btn : p1
+  - street : flop
+  - community card : ['DT', 'CA', 'H4']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 925 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared call: 0
+-- round state --
+  - dealer btn : p1
+  - street : flop
+  - community card : ['DT', 'CA', 'H4']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 925 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "call:0"
+-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p1 (rogfzqfgopacmrwndxlaiz) declared call: 0
+-- round state --
+  - dealer btn : p1
+  - street : flop
+  - community card : ['DT', 'CA', 'H4']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 925 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - turn
+======================================================================
+Enter some key to continue ..."p1" declared "call:0"
+Street "turn" started. (community card = ['DT', 'CA', 'H4', 'HQ'])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 925]
+-- hole card --
+  - ['H3', 'S9']
+-- round state --
+  - dealer btn : p1
+  - street : turn
+  - community card : ['DT', 'CA', 'H4', 'HQ']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 925 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared call: 0
+-- round state --
+  - dealer btn : p1
+  - street : turn
+  - community card : ['DT', 'CA', 'H4', 'HQ']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 925 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "call:0"
+-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p1 (rogfzqfgopacmrwndxlaiz) declared call: 0
+-- round state --
+  - dealer btn : p1
+  - street : turn
+  - community card : ['DT', 'CA', 'H4', 'HQ']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 925 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - river
+======================================================================
+Enter some key to continue ..."p1" declared "call:0"
+Street "river" started. (community card = ['DT', 'CA', 'H4', 'HQ', 'S8'])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 0
+  - raise: [10, 925]
+-- hole card --
+  - ['H3', 'S9']
+-- round state --
+  - dealer btn : p1
+  - street : river
+  - community card : ['DT', 'CA', 'H4', 'HQ', 'S8']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 925 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p1
+  - street : river
+  - community card : ['DT', 'CA', 'H4', 'HQ', 'S8']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1055 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 925 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - river
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 9 (stack = {'p1': 1075, 'p2': 925})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1075
+-- round state --
+  - dealer btn : p1
+  - street : showdown
+  - community card : ['DT', 'CA', 'H4', 'HQ', 'S8']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1075 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 925 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - flop
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - turn
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 0, 'paid': 0, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+    - river
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 10 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['CT', 'H5']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1070
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 915
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 10
+Street "preflop" started. (community card = [])
+-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p1 (rogfzqfgopacmrwndxlaiz) declared call: 10
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1065 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 915 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter some key to continue ..."p1" declared "call:10"
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 925]
+-- hole card --
+  - ['CT', 'H5']
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1065 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 915 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1065 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 915 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 10 (stack = {'p1': 1085, 'p2': 915})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1085
+-- round state --
+  - dealer btn : p2
+  - street : showdown
+  - community card : ['DJ', 'H2', 'HA', 'C5', 'S3']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1085 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 915 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 11 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['D2', 'C3']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1075
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 910
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 11
+Street "preflop" started. (community card = [])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 915]
+-- hole card --
+  - ['D2', 'C3']
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1075 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 910 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> valid raise range = [15, 915]-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1075 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 910 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 11 (stack = {'p1': 1090, 'p2': 910})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1090
+-- round state --
+  - dealer btn : p1
+  - street : showdown
+  - community card : ['D3', 'SJ', 'S8', 'ST', 'CT']
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1090 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 910 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 12 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['S9', 'H3']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1085
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 900
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 12
+Street "preflop" started. (community card = [])
+-- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p1 (rogfzqfgopacmrwndxlaiz) declared call: 10
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1080 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 900 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter some key to continue ..."p1" declared "call:10"
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 910]
+-- hole card --
+  - ['S9', 'H3']
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1080 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 900 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1080 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 900 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 12 (stack = {'p1': 1100, 'p2': 900})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1100
+-- round state --
+  - dealer btn : p2
+  - street : showdown
+  - community card : ['CQ', 'HA', 'D4', 'S6', 'D6']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1100 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 900 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 13 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['HK', 'S2']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1090
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 895
+======================================================================
+Enter some key to continue ...-- New street start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- street --
+  - preflop
+======================================================================
+Enter some key to continue ...Started the round 13
+Street "preflop" started. (community card = [])
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 900]
+-- hole card --
+  - ['HK', 'S2']
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1090 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 895 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p1
+  - street : preflop
+  - community card : []
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1090 <= BB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 895 <= SB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 13 (stack = {'p1': 1105, 'p2': 895})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1105
+-- round state --
+  - dealer btn : p1
+  - street : showdown
+  - community card : ['D9', 'DQ', 'CT', 'D6', 'H3']
+  - pot : main = 15, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1105 <= BB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 895 <= SB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...-- Round 14 start (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- hole card --
+  - ['H9', 'D2']
+-- players information --
+  - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1100
+  - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 885
+======================================================================
+Enter some key to continue ...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        "p1" declared "call:10"
+-- Declare your action (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- valid actions --
+  - fold
+  - call: 10
+  - raise: [15, 895]
+-- hole card --
+  - ['H9', 'D2']
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1095 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : participating, stack : 885 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+======================================================================
+Enter f(fold), c(call), r(raise).
+ >> -- Game update (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- new action --
+  - p2 (zdymtlagughjdteamxsbuz) declared fold: 0
+-- round state --
+  - dealer btn : p2
+  - street : preflop
+  - community card : []
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1095 <= SB
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 885 <= BB, CURRENT
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ..."p2" declared "fold:0"
+"['p1']" won the round 14 (stack = {'p1': 1115, 'p2': 885})
+-- Round result (UUID = zdymtlagughjdteamxsbuz) --
+======================================================================
+-- winners --
+  - p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1115
+-- round state --
+  - dealer btn : p2
+  - street : showdown
+  - community card : ['DT', 'HA', 'D7', 'H6', 'S8']
+  - pot : main = 20, side = []
+  - players information
+    - 0 : p1 (rogfzqfgopacmrwndxlaiz) => state : participating, stack : 1115 <= SB, CURRENT
+    - 1 : p2 (zdymtlagughjdteamxsbuz) => state : folded, stack : 885 <= BB
+  - action histories
+    - preflop
+      - {'action': 'SMALLBLIND', 'amount': 5, 'add_amount': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'BIGBLIND', 'amount': 10, 'add_amount': 5, 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+      - {'action': 'CALL', 'amount': 10, 'paid': 5, 'player': 'p1 (uuid=rogfzqfgopacmrwndxlaiz)'}
+      - {'action': 'FOLD', 'player': 'p2 (uuid=zdymtlagughjdteamxsbuz)'}
+======================================================================
+Enter some key to continue ...
